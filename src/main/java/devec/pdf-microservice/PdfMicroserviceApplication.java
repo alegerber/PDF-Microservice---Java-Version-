@@ -1,13 +1,13 @@
-package devec.pdfmicroservice;
+package devec.PdfMicroservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PdfmicroserviceApplication {
+public class PdfMicroserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PdfmicroserviceApplication.class, args);
+		SpringApplication.run(PdfMicroserviceApplication.class, args);
 	}
 
 }

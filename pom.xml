@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>devec</groupId>
-	<artifactId>pdfmicroservice</artifactId>
+	<artifactId>pdf-microservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>pdfmicroservice</name>
+	<name>pdf-microservice</name>
 	<description>Rendering html to pdf per json call.</description>
 
 	<properties>
