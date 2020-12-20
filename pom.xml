@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>devec</groupId>
-	<artifactId>pdf-microservice</artifactId>
+	<artifactId>pdfmicroservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>pdf-microservice</name>
+	<name>pdfmicroservice</name>
 	<description>Rendering html to pdf per json call.</description>
 
 	<properties>
@@ -32,6 +32,11 @@
 			<groupId>com.github.librepdf</groupId>
 			<artifactId>openpdf</artifactId>
 			<version>1.3.23</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>5.2.9.RELEASE</version>
 		</dependency>
 	</dependencies>
 
