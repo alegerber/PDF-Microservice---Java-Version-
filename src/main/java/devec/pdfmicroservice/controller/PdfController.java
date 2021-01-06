@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.*;
-import java.nio.StringCharBuffer;
 import java.nio.charset.StandardCharsets;
 
 import com.lowagie.text.Document;
@@ -34,7 +33,7 @@ public class PdfController {
             document.close();
 
             return outputStream.toString(StandardCharsets.UTF_8);
-        } catch (DocumentException | IOException de) {
+        } catch (DocumentException de) {
             System.err.println(de.getMessage());
         }
 
